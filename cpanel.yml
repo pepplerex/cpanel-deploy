@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/afritec3/deploy.afritechindustries.com.ng
+    - /bin/cp -a * $DEPLOYPATH
